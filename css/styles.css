@@ -107,6 +107,11 @@ body {
   transition: all 2s ease-in-out;
 }
 
+.cart-item-img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
 .cart-item-price {
   font-size: 0.8rem;
 }
@@ -114,7 +119,7 @@ body {
 /* Banner Styles */
 .max-height {
   min-height: calc(100vh - 76px);
-  background: linear-gradient(rgba(249, 228, 148, 0.5), rgba(249, 228, 148, 0.5)), url('../images/headerBcg.jpeg');
+  background: url('../images/donut-blue.jpg');
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -129,7 +134,12 @@ body {
 
 .banner-title {
   color: #ef7998;
-  font-size: 4rem;
+  font-size: 5rem;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
 
 .banner-link {
@@ -153,7 +163,7 @@ body {
   left: -1.7rem;
   width: 100%;
   height: 100%;
-  outline: 0.5rem solid rgb(249, 228, 148);
+  outline: 0.5rem solid #ef7998;
   z-index: -1;
   transition: all 1s linear;
 }
@@ -187,6 +197,7 @@ body {
 
 .store-img {
   transition: all 1s ease-in-out;
+  height: 348px;
 }
 .img-container:hover .store-img {
   transform: scale(1.2);
@@ -213,7 +224,7 @@ body {
 /* Services Section */
 .services {
   color: #fff;
-  background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/servicesBcg.jpeg");
+  background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/donuts-three.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -227,6 +238,10 @@ body {
 
 .service-text {
   word-spacing: 0.5rem;
+}
+
+.services-img {
+  max-width: 64px;
 }
 
 /* Footer */
