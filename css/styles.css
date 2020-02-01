@@ -193,3 +193,25 @@ body {
 .service-text {
   word-spacing: 0.5rem;
 }
+
+/* Footer */
+.footer-title {
+  background: #000;
+}
+
+.footer-contact {
+  background: rgb(238, 238, 238);
+}
+
+.footer-icon {
+  font-size: 1.5rem;
+  color: #fff;
+  transition: all 0.4 ease-in-out;
+}
+.footer-icon:hover {
+  color: #ef7998;
+}
+
+.fa-black {
+  color: #000;
+}
