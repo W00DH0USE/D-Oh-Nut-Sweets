@@ -1,4 +1,4 @@
-# Drinkin-Buddi.IO
+# D'Oh! Nut Sweets
 
 D'Oh! Nut Sweets is a mock donut and cakes online store.
 
